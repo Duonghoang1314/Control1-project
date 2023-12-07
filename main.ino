@@ -10,7 +10,7 @@ double Setpoint, Input, Output;
 float duration;
 int PWM;
 //Specify the links and initial tuning parameters
-double Kp=13.41, Ki=4.024, Kd=0;
+double Kp=44.7255, Ki=13.252, Kd=0;
 PID myPID(&Input, &Output, &Setpoint, Kp, Ki, Kd, DIRECT);
 
 void setup()
